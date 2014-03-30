@@ -2,7 +2,7 @@
 <RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="WebDataSource">
   <ConnectionProperties>
     <Extension>SQL</Extension>
-    <ConnectString>Data Source=crmserver;Initial Catalog=test-report</ConnectString>
+    <ConnectString>Data Source=HOMECO;Initial Catalog=test-report</ConnectString>
     <IntegratedSecurity>true</IntegratedSecurity>
   </ConnectionProperties>
   <DataSourceID>3c20696f-04e7-4d56-b6e4-de23afa64e57</DataSourceID>
