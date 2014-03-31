@@ -24,7 +24,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>textbox1</rd:DefaultName>
-        <Top>0.62582cm</Top>
+        <Top>0.17639cm</Top>
         <Left>0.05741cm</Left>
         <Height>0.34389in</Height>
         <Width>7.76197in</Width>
@@ -39,7 +39,7 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>8.02415in</Width>
+              <Width>9.00841in</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -100,6 +100,9 @@
                               </TablixColumn>
                               <TablixColumn>
                                 <Width>2.83102cm</Width>
+                              </TablixColumn>
+                              <TablixColumn>
+                                <Width>2.5cm</Width>
                               </TablixColumn>
                             </TablixColumns>
                             <TablixRows>
@@ -300,6 +303,44 @@
                                       </Textbox>
                                     </CellContents>
                                   </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="Textbox8">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>Вид деят-ти</Value>
+                                                <Style>
+                                                  <FontFamily>Courier New</FontFamily>
+                                                  <FontSize>9pt</FontSize>
+                                                  <FontWeight>Bold</FontWeight>
+                                                  <Color>White</Color>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style>
+                                              <TextAlign>Center</TextAlign>
+                                            </Style>
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox8</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>DimGray</Color>
+                                            <Style>Solid</Style>
+                                          </Border>
+                                          <BackgroundColor>#1c3a70</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
                                 </TablixCells>
                               </TablixRow>
                               <TablixRow>
@@ -476,6 +517,42 @@
                                       </Textbox>
                                     </CellContents>
                                   </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="vidDeejat">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value>=Fields!vidDeejat.Value</Value>
+                                                <Style>
+                                                  <FontSize>9pt</FontSize>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style />
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>vidDeejat</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>Gray</Color>
+                                            <Style>Solid</Style>
+                                          </Border>
+                                          <LeftBorder>
+                                            <Width>1.5pt</Width>
+                                          </LeftBorder>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                      <rd:Selected>true</rd:Selected>
+                                    </CellContents>
+                                  </TablixCell>
                                 </TablixCells>
                               </TablixRow>
                               <TablixRow>
@@ -630,12 +707,50 @@
                                       </Textbox>
                                     </CellContents>
                                   </TablixCell>
+                                  <TablixCell>
+                                    <CellContents>
+                                      <Textbox Name="Textbox10">
+                                        <CanGrow>true</CanGrow>
+                                        <KeepTogether>true</KeepTogether>
+                                        <Paragraphs>
+                                          <Paragraph>
+                                            <TextRuns>
+                                              <TextRun>
+                                                <Value />
+                                                <Style>
+                                                  <FontFamily>Courier New</FontFamily>
+                                                  <FontWeight>Bold</FontWeight>
+                                                </Style>
+                                              </TextRun>
+                                            </TextRuns>
+                                            <Style>
+                                              <TextAlign>Center</TextAlign>
+                                            </Style>
+                                          </Paragraph>
+                                        </Paragraphs>
+                                        <rd:DefaultName>Textbox10</rd:DefaultName>
+                                        <Style>
+                                          <Border>
+                                            <Color>Gray</Color>
+                                            <Style>Solid</Style>
+                                            <Width>1.5pt</Width>
+                                          </Border>
+                                          <BackgroundColor>White</BackgroundColor>
+                                          <PaddingLeft>2pt</PaddingLeft>
+                                          <PaddingRight>2pt</PaddingRight>
+                                          <PaddingTop>2pt</PaddingTop>
+                                          <PaddingBottom>2pt</PaddingBottom>
+                                        </Style>
+                                      </Textbox>
+                                    </CellContents>
+                                  </TablixCell>
                                 </TablixCells>
                               </TablixRow>
                             </TablixRows>
                           </TablixBody>
                           <TablixColumnHierarchy>
                             <TablixMembers>
+                              <TablixMember />
                               <TablixMember />
                               <TablixMember />
                               <TablixMember />
@@ -669,7 +784,7 @@
                           <DataSetName>MainDataSet</DataSetName>
                           <Top>0.375in</Top>
                           <Height>2.13572cm</Height>
-                          <Width>20.38135cm</Width>
+                          <Width>22.88135cm</Width>
                           <Style />
                         </Tablix>
                         <Textbox Name="date_doc">
@@ -816,7 +931,7 @@
         <DataSetName>MainDataSet</DataSetName>
         <Top>1.87902in</Top>
         <Height>1.75078in</Height>
-        <Width>8.02415in</Width>
+        <Width>9.00841in</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <FontFamily>Tahoma</FontFamily>
@@ -988,14 +1103,43 @@
                   <Color>DimGray</Color>
                 </Style>
               </TextRun>
+              <TextRun>
+                <Value xml:space="preserve"> </Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>DimGray</Color>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>ВИД ДЕЯТЕЛЬНОСТИ: </Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>8pt</FontSize>
+                  <Color>DimGray</Color>
+                </Style>
+              </TextRun>
+              <TextRun>
+                <Value>=Parameters!rVidDejat.Label</Value>
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                  <Color>DimGray</Color>
+                </Style>
+              </TextRun>
             </TextRuns>
             <Style />
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox31</rd:DefaultName>
-        <Top>1.64041cm</Top>
-        <Left>0.00001cm</Left>
-        <Height>1.2193in</Height>
+        <Top>1.19098cm</Top>
+        <Left>0.05741cm</Left>
+        <Height>1.35457in</Height>
         <Width>6.90958in</Width>
         <ZIndex>2</ZIndex>
         <Style>
@@ -1009,7 +1153,7 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>3.71313in</Height>
+    <Height>4.95271in</Height>
     <Style />
   </Body>
   <Width>9.07599in</Width>
@@ -1098,8 +1242,12 @@
           <QueryParameter Name="@rgr_nomID">
             <Value>=Parameters!rgr_nomID.Value</Value>
           </QueryParameter>
+          <QueryParameter Name="@rVidDejat">
+            <Value>=Parameters!rVidDejat.Value</Value>
+            <rd:UserDefined>true</rd:UserDefined>
+          </QueryParameter>
         </QueryParameters>
-        <CommandText>EXEC [reporting].[Отпуск в отделение] @DateStart, @dateTo, @rorgID, @rpodrID, @rsost_podrID, @podrTo, @rnomID, 1,@ruserUID,@SpisLec,@rgr_nomID</CommandText>
+        <CommandText>EXEC [reporting].[Отпуск в отделение] @DateStart, @dateTo, @rorgID, @rpodrID, @rsost_podrID, @podrTo, @rnomID, 1,@ruserUID,@SpisLec,@rgr_nomID, @rVidDejat</CommandText>
         <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
       </Query>
       <Fields>
@@ -1134,6 +1282,10 @@
         <Field Name="rpodrName">
           <DataField>rpodrName</DataField>
           <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="vidDeejat">
+          <DataField>vidDeejat</DataField>
+          <rd:UserDefined>true</rd:UserDefined>
         </Field>
       </Fields>
     </DataSet>
@@ -1560,6 +1712,22 @@ order by rspis_lecName</CommandText>
           <DataSetName>rgr_nom</DataSetName>
           <ValueField>rgr_nomID</ValueField>
           <LabelField>rgr_nomName</LabelField>
+        </DataSetReference>
+      </ValidValues>
+    </ReportParameter>
+    <ReportParameter Name="rVidDejat">
+      <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>-1</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Вид деятельности</Prompt>
+      <ValidValues>
+        <DataSetReference>
+          <DataSetName>rvid_dejat</DataSetName>
+          <ValueField>rvid_dejatID</ValueField>
+          <LabelField>rvid_dejatName</LabelField>
         </DataSetReference>
       </ValidValues>
     </ReportParameter>
